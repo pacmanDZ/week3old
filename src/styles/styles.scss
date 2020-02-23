@@ -1,0 +1,51 @@
+
+
+$font-family-default: 'roboto', sans-serif;
+$transition-fast: .25s;
+
+body{
+  font-family: $font-family-default;
+}
+header {
+  height: 700px;
+}
+.head{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 2vw;
+}
+main{
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.8);
+  }
+
+.main-p{
+  color: white;
+}
+.main-h2{
+  color: white;
+
+}
+.head-text .h2{
+  font-size: 48;
+}
+.a{
+  color: grey;
+  &:hover {
+      color: black;
+    }
+}
+.img_text{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.sale{
+  color: gold;
+}
+.fotorama{
+
+}
